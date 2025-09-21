@@ -55,3 +55,59 @@ button:hover {
   transform: scale(1.1);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+
+/* a partir de aqui hacia abajo solo iran estilos que se usaran en main, tall vez use 
+el estilo button que defini arriba o tal vez cree otro*/
+article {
+  background-color: black;
+  padding: 20px 20px;
+  border-radius: 20px;
+  border: none;
+  margin: 20px 30px;
+  transition: box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+article:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h2 {
+  color: #007bff;
+  font-size: 2rem;
+  font-family: "Georgia", "Times New Roman", serif;
+}
+
+p {
+  color: white;
+  font-size: 1.1rem;
+  font-family: "Lato", sans-serif;
+}
+
+/* contenido para tablas*/
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background-color: #007bff;
+  color: white;
+  border: 20px;
+  border-radius: 10px;
+}
+caption {
+  font-size: 2rem;
+  font-family: "Georgia", "Times New Roman", serif;
+}
+th td {
+  padding: 12px 15px;
+  text-align: left;
+  border-right: 1px solid #ffffff;
+}
+td {
+  background-color: #0056b3;
+  text-align: justify;
+}
+ol,
+dl {
+  color: white;
+  font-size: 1.1rem;
+  font-family: "Lato", sans-serif;
+}
